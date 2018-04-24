@@ -6,3 +6,43 @@
 body {
 	background-color: blue;
 }
+
+#header {
+	background-color: green;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+#container {
+	background-color: lightblue;
+	height: 500px;
+}
+
+#links {
+	background-color: indigo;
+	color: white;
+	text-align: center;
+	height: 60px;
+}
+
+a {
+	color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#content {
+	text-align: center;
+}
+
+#footer {
+	background-color: purple;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}

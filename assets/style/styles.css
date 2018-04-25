@@ -4,11 +4,14 @@
 }
 
 body {
-	background-color: blue;
+	background-image: url(../images/back7.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
+	font-family: 'Lato', sans-serif;
 }
 
 #header {
-	background-color: green;
+	color: white;
 	text-align: center;
 	width: 70%;
 	margin: 0 auto;
@@ -23,12 +26,11 @@ body {
 }
 
 #container {
-	background-color: lightblue;
+	color: white;
 	height: 360px;
 }
 
 #links {
-	background-color: indigo;
 	color: white;
 	text-align: center;
 	height: 40px;
@@ -41,13 +43,13 @@ a {
 	margin-right: 7%;
 	border-style: solid;
 	border-width: 3px;
-	border-color: purple;
+	border-color: white;
 	border-radius: 10px;
 	padding: 10px;
-	background-color: red;
+	background-color: #02569E;
 	font-size: 20px;
 	display: inline-block;
-  width: 80px;
+  width: 90px;
   text-decoration: none;
 }
 
@@ -59,10 +61,27 @@ a {
 	font-size: 18px;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 #footer {
-	background-color: purple;
+	color: white;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+	height: 30px;
 }

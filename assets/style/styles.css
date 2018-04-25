@@ -15,14 +15,14 @@ body {
 	text-align: center;
 	width: 70%;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 	border-radius: 10px;
 	height: 100px;
 }
 
 #header h1 {
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 #container {
@@ -34,7 +34,7 @@ body {
 	color: white;
 	text-align: center;
 	height: 40px;
-	margin-top: 30px;
+	margin-top: -20px;
 }
 
 a {
@@ -57,7 +57,7 @@ a {
 	text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 40px;
+	margin-top: 50px;
 	font-size: 18px;
 }
 

@@ -3,6 +3,12 @@
 	padding: 0;
 }
 
+html {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
 body {
 	background-image: url(../images/back7.jpg);
 	background-repeat: no-repeat;
@@ -46,7 +52,7 @@ a {
 	border-color: white;
 	border-radius: 10px;
 	padding: 10px;
-	background-color: #02569E;
+	background-color: #0C58A8;
 	font-size: 20px;
 	display: inline-block;
   width: 90px;
@@ -59,6 +65,10 @@ a {
 	margin-right: 10%;
 	margin-top: 50px;
 	font-size: 18px;
+}
+
+#content h3 {
+	margin-bottom: 20px;
 }
 
 table {

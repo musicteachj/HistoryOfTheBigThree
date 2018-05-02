@@ -61,9 +61,9 @@ a {
 
 #content {
 	text-align: center;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 50px;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 30px;
 	font-size: 18px;
 }
 
@@ -75,16 +75,21 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    text-align: center;
+    background-color: #060B2B;
 }
 
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    text-align: center;
+    font-size: 16px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+table#t01 th {
+    background-color: #00020f;
+    color: white;
 }
 
 #footer {
